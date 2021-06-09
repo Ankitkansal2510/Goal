@@ -41,6 +41,7 @@ public class LambaPractise  {
         list.add(new Apple("Green",140));
         list.add(new Apple("Red",160));
         list.add(new Apple("Green",170));
+
 /**
  * In the below two filter calls we are passing method (isGreenApple and isHeavyApple ) as a value to another
  * method filterApple, but it is also annoying as isGreenApple and isHEavyApple is a short method and can

@@ -1,5 +1,7 @@
 package Comparable;
 
+import java.util.function.Predicate;
+
 public class MyComparable implements Comparable<MyComparable>{
 
     int id;

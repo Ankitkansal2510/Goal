@@ -1,4 +1,4 @@
-package Lambdas.SecondExample;
+package Java8.Lambdas.SecondExample;
 
 import java.util.concurrent.Callable;
 

@@ -25,14 +25,14 @@ public class FileReader {
         return null;
     }
 
-    public static String lamdaProcessFile(BufferedReaderInterface b){
+    public static  String lamdaProcessFile(BufferedReaderInterface b){
         try(BufferedReader br=new BufferedReader(new java.io.FileReader("D:\\Test.txt"))){
-            return b.process(br);
+          return b.process(br);
         }
         catch(IOException e){
             e.printStackTrace();
         }
-        return null;
+       return null;
     }
 
     public static void main(String[] args) throws IOException{
