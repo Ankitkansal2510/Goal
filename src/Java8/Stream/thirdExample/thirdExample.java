@@ -11,7 +11,7 @@ public class thirdExample {
         long count=list.stream().filter(d->d.length()>1).distinct().count();
         System.out.println(count);
 //filter,distinct are intermediate operation as they return the stream but count returns a long value it is
-        //termial operation
+        //terminal operation
 
 
         /**
