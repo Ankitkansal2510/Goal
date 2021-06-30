@@ -2,8 +2,8 @@ package Java8.Stream.mapToInt;
 
 public class Dish {
 
-    private int calorie;
-    private String name;
+    private final int calorie;
+    private final String name;
 
     @Override
     public String toString() {

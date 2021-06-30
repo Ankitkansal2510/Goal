@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 class Dish{
-    private int calorie;
-    private String DishName;
+    private final int calorie;
+    private final String DishName;
 
     public Dish(int calorie, String dishName) {
         this.calorie = calorie;

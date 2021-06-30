@@ -28,7 +28,7 @@ public class FlatMapMain {
          *
          * The answer is NO!!!
          *
-         * Because now this expresison will return stream of stream i.e stream<stream<String>>
+         * Because now this expression will return stream of stream i.e stream<stream<String>>
          * but we need Stream<String>)
          *
          * ???????

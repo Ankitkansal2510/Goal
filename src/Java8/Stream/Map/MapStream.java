@@ -1,6 +1,5 @@
 package Java8.Stream.Map;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,8 +12,8 @@ import java.util.stream.Collectors;
  * **/
 
  class Dish{
-    private String name;
-    private Integer calorie;
+    private final String name;
+    private final Integer calorie;
 
     public Dish(String name, Integer calorie) {
         this.name = name;

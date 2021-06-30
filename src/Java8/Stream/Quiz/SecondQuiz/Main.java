@@ -34,7 +34,6 @@ public class Main {
                                         .sorted((i,j)-> i.getValue().compareTo(j.getValue()))
                                         .collect(Collectors.toList());
 
-                                                                            ;
         System.out.println("All sorted transaction in the year 2011 are : " + solution1);
 
         /**

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
+
 /**This program is used to take a list and store it in a map
  *
  * We are using the existing forEach method whicch accepts a consumer functional interface
@@ -67,6 +69,13 @@ public class ListItem {
         Map<Integer,String> map=new HashMap<>();
         list.forEach((n)->map.put(n.getKey(),n.getValue()));
         System.out.println(map);
+
+        Map<Integer,String> map1=new HashMap<>();
+        //or
+        map1=list.stream().collect(Collectors.toMap(m->m.getKey(),n->n.getValue()));
+        Map<Integer,String> map2=new HashMap<>();
+        //or
+        map2=list.stream().collect(Collectors.toMap(ListItem::getKey,ListItem::getValue));
 
         System.out.println("Converting list to map by custom predicate");
         Map<Integer,String> customHashmap=new HashMap<>();

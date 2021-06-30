@@ -4,5 +4,5 @@ import Java8.firstExample.Apple;
 
 public interface Predicate<T> {
 
-    public String appleInfo(Apple apple);
+    String appleInfo(Apple apple);
 }

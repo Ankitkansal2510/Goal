@@ -9,8 +9,8 @@ import java.util.stream.Collectors;
 import static java.util.stream.Collectors.toList;
 
 class Menu{
-    private Integer calorie;
-    private String name;
+    private final Integer calorie;
+    private final String name;
 
     public Menu(Integer calorie, String name) {
         this.calorie = calorie;
